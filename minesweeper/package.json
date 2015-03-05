@@ -1,0 +1,17 @@
+{
+  "name": "minesweeperintypescript",
+  "version": "1.0.0",
+  "description": "This is a first try of typescript using the minesweeper kata",
+  "main": "index.ts",
+  "scripts": {
+    "test": "mocha --compilers ts:typescript-require *.ts"
+  },
+  "author": "jeanlaurent@morlhon.net",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^2.1.1",
+    "mocha": "^2.1.0",
+    "typescript": "^1.4.1",
+    "typescript-require": "^0.2.8"
+  }
+}
